@@ -1,0 +1,6 @@
+{
+  "name": "CPG Multi-Agent Inventory & Supply Chain Observability Assistant",
+  "description": "An enterprise-grade platform that parses supply chain logs, analyzes inventory anomalies, forecasts sales demand, and suggests automated restocking schedules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
