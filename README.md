@@ -509,3 +509,37 @@ Before delivering, verify:
 [ ] Every LLM call has try/except with fallback
 [ ] Chat endpoint sends full conversation history
 [ ] Apply-fix returns full patched file content
+
+
+
+
+
+
+
+## AI Friday Season 2 - Problem Statements
+### Consumer Goods Inventory Demand Forecast Chatbot
+### Problem Statement
+Consumer packaged goods companies face challenges in accurately forecasting inventory demand due to fluctuating market trends, promotions, and seasonal effects. Traditional forecasting relies on historical sales data and manual adjustments, often leading to overstock or stockouts. Supply chain teams need quick access to demand insights to make procurement decisions but lack intuitive tools that combine data analytics with natural language queries.
+The volume of SKUs can be in thousands with daily sales updates. Existing tools are complex and require data science expertise, limiting accessibility for operational staff. There is a strong need for an AI chatbot that provides on-demand demand forecasts and inventory recommendations in natural language.
+#### Data Considerations:
+ * Require historical sales data in tabular format, promotion calendars, SKU master data, and inventory levels.
+ * Data sources include internal ERP and sales systems accessible via APIs.
+ * Data volume includes daily sales records for thousands of SKUs over multiple years.
+ * Preprocessing involves time series cleaning, feature engineering for seasonality, and data normalization.
+ * Privacy considerations include securing sensitive sales data.
+ * Synthetic data generation can simulate demand spikes and promotional impacts for testing.
+ * Consider using synthetic or anonymized data where appropriate.
+ * Ensure data quality and relevance to the problem context.
+### Solution Expectations
+ * Deliver a chatbot interface where supply chain users ask about demand forecasts and inventory status in natural language.
+ * The solution provides forecast summaries, trend charts, and actionable procurement recommendations.
+ * Integrate with sales and promotion APIs for real-time data.
+ * Success metrics include 80%+ forecast explanation accuracy and positive user feedback on usability.
+ * Demonstrate by simulating queries related to specific SKUs and promotions, showcasing AI-generated insights.
+ * Provide user guides, technical documentation, and deployment instructions.
+> *Feel free to explore creative solutions that align with the problem context and objectives.*
+> 
+**TCS Internal** | 18 June 2026
+
+
+
